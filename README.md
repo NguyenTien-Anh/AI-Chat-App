@@ -1,85 +1,85 @@
 # AI Voice Assistant
 
-AI Voice Assistant là một ứng dụng Android cho phép người dùng tương tác với các mô hình AI mạnh mẽ thông qua giao diện chat và tương tác giọng nói.
+AI Voice Assistant is an Android application that allows users to interact with powerful AI models through chat interface and voice interactions.
 
-## Tính năng chính
+## Key Features
 
-- Chat văn bản với nhiều mô hình AI khác nhau
-- Tương tác bằng giọng nói (nhấn giữ để ghi âm)
-- Chuyển đổi văn bản thành giọng nói
-- Hỗ trợ nhiều mô hình AI:
+- Text chat with various AI models
+- Voice interaction (press and hold to record)
+- Text-to-speech conversion
+- Support for multiple AI models:
   - OpenAI GPT-4o-mini
   - Google Gemini 2.0
   - Llama 3.2
   - Qwen 2.5
 
-## Công nghệ sử dụng
+## Technologies Used
 
-- **Ngôn ngữ**: Java
+- **Language**: Java
 - **Framework**: Android SDK
-- **Thư viện kết nối API**:
-  - Retrofit2 và OkHttp cho các yêu cầu mạng
-  - Gson cho xử lý JSON
-- **API AI**:
-  - OpenAI API (Chat Completion và Speech-to-Text)
+- **API Connection Libraries**:
+  - Retrofit2 and OkHttp for network requests
+  - Gson for JSON processing
+- **AI APIs**:
+  - OpenAI API (Chat Completion and Speech-to-Text)
   - Google Gemini API
-  - Mô hình Llama và Qwen (qua API tùy chỉnh)
-- **Thư viện giao diện**:
-  - RecyclerView cho hiển thị tin nhắn
+  - Llama and Qwen models (via custom API)
+- **UI Libraries**:
+  - RecyclerView for message display
   - Material Design Components
 
-## Giao diện ứng dụng
+## App Interface
 
-### Màn hình chính
-![Giao diện chính](public/images/main_ui.png)
+### Main Screen
+![Main Interface](public/images/main_ui.png)
 
-### Màn hình chat
-![Giao diện chat](public/images/chat.png)
+### Chat Screen
+![Chat Interface](public/images/chat.png)
 
-### Tương tác bằng giọng nói
-![Giao diện ghi âm](public/images/main_voice_chat.png)
+### Voice Interaction
+![Recording Interface](public/images/main_voice_chat.png)
 
-### Cài đặt
-![Giao diện cài đặt](public/images/setting.png)
+### Settings
+![Settings Interface](public/images/setting.png)
 
-### Demo tương tác giọng nói
-![Demo tương tác giọng nói](public/videos/voice_chat.gif)
+### Voice Chat Demo
+![Voice Chat Demo](public/videos/voice_chat.gif)
 
-## Cách sử dụng
+## How to Use
 
-1. **Chat văn bản**:
-   - Nhập tin nhắn vào ô văn bản
-   - Nhấn nút gửi để gửi tin nhắn đến AI
-   - Xem phản hồi của AI hiển thị trong lịch sử cuộc trò chuyện
+1. **Text Chat**:
+   - Enter a message in the text field
+   - Press the send button to send the message to AI
+   - View AI's response displayed in the conversation history
 
-2. **Tương tác bằng giọng nói**:
-   - Nhấn nút microphone
-   - Giữ nút để ghi âm giọng nói của bạn
-   - Thả nút để gửi âm thanh tới AI để xử lý
-   - AI sẽ chuyển đổi giọng nói thành văn bản, xử lý và phản hồi bằng giọng nói
+2. **Voice Interaction**:
+   - Press the microphone button
+   - Hold the button to record your voice
+   - Release the button to send the audio to AI for processing
+   - AI will convert speech to text, process it, and respond with voice
 
-3. **Thay đổi mô hình AI**:
-   - Nhấn nút cài đặt
-   - Chọn mô hình AI mong muốn từ menu
+3. **Change AI Model**:
+   - Press the settings button
+   - Select the desired AI model from the menu
 
-4. **Tạo cuộc trò chuyện mới**:
-   - Nhấn nút "Cuộc trò chuyện mới" để xóa lịch sử và bắt đầu cuộc trò chuyện mới
+4. **Create a New Conversation**:
+   - Press the "New Conversation" button to clear history and start a new conversation
 
-## Yêu cầu hệ thống
+## System Requirements
 
-- Android 8.0 (API 24) trở lên
-- Kết nối internet
-- Quyền truy cập microphone (cho tính năng nhận dạng giọng nói)
+- Android 8.0 (API 24) or higher
+- Internet connection
+- Microphone access permission (for voice recognition feature)
 
-## Phát triển
+## Development
 
-Dự án này sử dụng Gradle để quản lý các phụ thuộc. Để phát triển, bạn cần:
+This project uses Gradle to manage dependencies. For development, you need to:
 
-1. Clone repository
-2. Mở dự án trong Android Studio
-3. Đảm bảo bạn có các API key cần thiết trong file Constants.java
-4. Build và chạy ứng dụng
+1. Clone the repository
+2. Open the project in Android Studio
+3. Make sure you have the necessary API keys in the Constants.java file
+4. Build and run the application
 
-## Giấy phép
+## License
 
-© 2024 - Bản quyền thuộc về tác giả 
+© 2024 - Copyright belongs to the author 
