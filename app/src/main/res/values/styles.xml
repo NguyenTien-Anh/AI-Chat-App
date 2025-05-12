@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PopupMenuStyle" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:dropDownHorizontalOffset">0dp</item>
+        <item name="android:dropDownVerticalOffset">0dp</item>
+    </style>
+    
+    <style name="PopupMenuTextAppearance" parent="TextAppearance.AppCompat.Menu">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+</resources> 

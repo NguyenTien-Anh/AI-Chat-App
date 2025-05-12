@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OpenAI API Key"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/apiKeyEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="sk-..."
+        android:inputType="textVisiblePassword"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You can find your API key at https://platform.openai.com/api-keys"
+        android:textSize="12sp"
+        android:layout_marginBottom="16dp"/>
+        
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Model"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+        
+    <RadioGroup
+        android:id="@+id/modelRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <RadioButton
+            android:id="@+id/radioGpt4oMini"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GPT-4o-mini (Default)"
+            android:checked="true"/>
+            
+        <RadioButton
+            android:id="@+id/radioGpt35Turbo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GPT-3.5 Turbo"/>
+            
+        <RadioButton
+            android:id="@+id/radioGpt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GPT-4 (Requires higher tier API access)"/>
+    </RadioGroup>
+        
+</LinearLayout> 

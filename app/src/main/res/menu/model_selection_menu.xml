@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/model_gpt4o"
+            android:title="GPT-4o"
+            android:checkable="true"
+            android:icon="@drawable/menu_item_checked" />
+        <item
+            android:id="@+id/model_gemini"
+            android:title="Gemini-2.0"
+            android:checkable="true"
+            android:icon="@drawable/menu_item_checked" />
+        <item
+            android:id="@+id/model_llama"
+            android:title="Llama-3.2"
+            android:checkable="true"
+            android:icon="@drawable/menu_item_checked" />
+        <item
+            android:id="@+id/model_qwen"
+            android:title="Qwen-2.5"
+            android:checkable="true"
+            android:icon="@drawable/menu_item_checked" />
+    </group>
+</menu> 

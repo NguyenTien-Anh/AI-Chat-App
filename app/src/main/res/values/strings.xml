@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AI Voice Assistant</string>
+    <string name="voice_input_prompt">Listening...</string>
+    <string name="chat_with_ai">Chat with AI...</string>
+</resources>
